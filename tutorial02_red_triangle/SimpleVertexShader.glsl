@@ -13,7 +13,7 @@ void main(){
     gl_Position.xyz = vertexPosition_modelspace;
     gl_Position.w = 1.0;
 	
-	gl_PointSize = 5.0f;
+	gl_PointSize = 50.0f;
 
 	fragmentColor = vertexColor;
 

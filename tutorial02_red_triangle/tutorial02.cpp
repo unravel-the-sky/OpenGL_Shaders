@@ -139,7 +139,7 @@ int main( void )
 		);
 
 		// Draw the triangle !
-    glDrawArrays(GL_TRIANGLES, 0, 6); // 3 indices starting at 0 -> 1 triangle
+    glDrawArrays(GL_POINTS, 0, 6); // 3 indices starting at 0 -> 1 triangle
     glEnable(GL_PROGRAM_POINT_SIZE);
 
 		glDisableVertexAttribArray(0);
